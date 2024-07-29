@@ -1,6 +1,6 @@
 # Energy-Efficient SPI Sensor Network
 
-![Project Image](https://github.com/user-attachments/assets/spi_project_image.png)
+![Project Meme (1)](https://github.com/user-attachments/assets/6626ffee-5654-4cc7-ab71-f44844ab6a4c)
 
 ## Overview
 
@@ -109,8 +109,11 @@ The testbench module simulates the SPI master and slave to verify their function
 
 The simulation waveforms provide insight into the behavior of the SPI master and slave. Below are examples of the waveforms generated during the simulation:
 
-![Waveform 1](waveform_1.png)
-![Waveform 2](waveform_2.png)
+![SimulationWaveformExample](https://github.com/user-attachments/assets/5eb0cbf9-112d-4b0e-9615-b2851f9091b2)
+
+![image](https://github.com/user-attachments/assets/f8a80b45-b7de-47fb-ad47-906d4204af6b)
+
+![image](https://github.com/user-attachments/assets/387135bb-6bbe-4e54-b91e-a91fdcac04d8)
 
 ### Key Observations
 
@@ -122,6 +125,8 @@ The simulation waveforms provide insight into the behavior of the SPI master and
 ## Synthesis Results
 
 ### Utilization Summary
+
+![SynthesisUtilizationReportExample](https://github.com/user-attachments/assets/89a9a838-218a-4b01-952c-9d4f10650243)
 
 The synthesis results show the resource utilization for the SPI master design:
 
@@ -138,6 +143,8 @@ The synthesis results show the resource utilization for the SPI master design:
 
 ### Timing Summary
 
+![SynthesisDesignTimingReportExample](https://github.com/user-attachments/assets/75aa200e-3fc6-414e-a108-0c0510d6e1e3)
+
 The timing summary indicates that the design meets the required timing constraints:
 
 - **Worst Negative Slack (WNS)**: inf
@@ -152,6 +159,8 @@ The timing summary indicates that the design meets the required timing constrain
   - **Explanation**: The number of endpoints that fail to meet timing constraints. A value of 0 indicates that all timing constraints are met.
 
 ### Power Estimation
+
+![SynthesisPowerReportExample](https://github.com/user-attachments/assets/4ebf8b73-26b1-4a8d-a136-6e1c7721b2bc)
 
 The power estimation provides insights into the power consumption of the design:
 
@@ -173,6 +182,8 @@ The power estimation provides insights into the power consumption of the design:
   - **Explanation**: Estimated temperature of the FPGA junction based on power consumption and thermal properties.
 
 ### Design Rule Check (DRC) Summary
+
+![SynthesisDRCReportExample](https://github.com/user-attachments/assets/22659960-d57b-4192-9273-33db0cb4015a)
 
 The DRC summary shows that there are critical warnings related to pin planning and PS7 block requirements. These warnings indicate that:
 

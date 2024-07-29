@@ -1,0 +1,95 @@
+# run 1000ns
+Time                    0: Reset
+Time                    0: Transmission ended
+Time                    0: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time                 5000: Reset
+Time                15000: Reset
+Time                25000: Reset
+Time                35000: Reset
+Time                45000: Reset
+Time                55000: Reset
+Time                65000: Reset
+Time                75000: Reset
+Time                85000: Reset
+Time                95000: Reset
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_spi_master_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 10000 ns
+Time              1105000: SPI transmission started (start or interrupt)
+Time              1105000: Start signal received
+Time              1105000: Transmission started
+Time              1105000: power_on = 1, busy = 1, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time              1115000: power_on = 1, busy = 1, ss1 = 1, ss2 = 0, interrupt = 0, interrupt_pending = 0
+Time              1295000: SPI transmission completed successfully
+Time              1295000: Transmission ended
+Time              1295000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+run 10000 ns
+Time             11295000: Entering POWER_OFF_WAIT state
+Time             13305000: Entering POWER_OFF state
+Time             13315000: power_on = 0, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time             16305000: Interrupt received and pending
+Time             16305000: Interrupt signal received
+Time             16305000: power_on = 0, busy = 0, ss1 = 1, ss2 = 1, interrupt = 1, interrupt_pending = 1
+Time             16315000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 1
+Time             16325000: SPI transmission started (start or interrupt)
+Time             16325000: Transmission started
+Time             16325000: power_on = 1, busy = 1, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time             16335000: power_on = 1, busy = 1, ss1 = 0, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time             16515000: SPI transmission completed successfully
+Time             16515000: Transmission ended
+Time             16515000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+run 10000 ns
+Time             26515000: Entering POWER_OFF_WAIT state
+Time             28525000: Entering POWER_OFF state
+Time             28535000: power_on = 0, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+run 10000 ns
+run 10000 ns
+Time             46325000: Interrupt received and pending
+Time             46325000: Interrupt signal received
+Time             46325000: power_on = 0, busy = 0, ss1 = 1, ss2 = 1, interrupt = 1, interrupt_pending = 1
+Time             46335000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 1
+Time             46345000: SPI transmission started (start or interrupt)
+Time             46345000: Transmission started
+Time             46345000: power_on = 1, busy = 1, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time             46355000: power_on = 1, busy = 1, ss1 = 1, ss2 = 0, interrupt = 0, interrupt_pending = 0
+Time             46535000: SPI transmission completed successfully
+Time             46535000: Transmission ended
+Time             46535000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+run 10000 ns
+Time             51345000: SPI transmission started (start or interrupt)
+Time             51345000: Start signal received
+Time             51345000: Transmission started
+Time             51345000: power_on = 1, busy = 1, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time             51355000: power_on = 1, busy = 1, ss1 = 0, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time             51535000: SPI transmission completed successfully
+Time             51535000: Transmission ended
+Time             51535000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+run 10000 ns
+Time             61535000: Entering POWER_OFF_WAIT state
+Time             61545000: Interrupt received and pending
+Time             61545000: Interrupt signal received
+Time             61545000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 1, interrupt_pending = 1
+Time             61555000: SPI transmission started (start or interrupt)
+Time             61555000: Transmission started
+Time             61555000: power_on = 1, busy = 1, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time             61565000: power_on = 1, busy = 1, ss1 = 1, ss2 = 0, interrupt = 0, interrupt_pending = 0
+Time             61745000: Parity error detected
+Time             61745000: Transmission ended
+Time             61745000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+run 10000 ns
+Time             71745000: Entering POWER_OFF_WAIT state
+Time             73755000: Entering POWER_OFF state
+Time             73765000: power_on = 0, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+run 10000 ns
+Time             81565000: Interrupt received and pending
+Time             81565000: Interrupt signal received
+Time             81565000: power_on = 0, busy = 0, ss1 = 1, ss2 = 1, interrupt = 1, interrupt_pending = 1
+Time             81575000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 1
+Time             81585000: SPI transmission started (start or interrupt)
+Time             81585000: Transmission started
+Time             81585000: power_on = 1, busy = 1, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time             81595000: power_on = 1, busy = 1, ss1 = 0, ss2 = 1, interrupt = 0, interrupt_pending = 0
+Time             81775000: SPI transmission completed successfully
+Time             81775000: Transmission ended
+Time             81775000: power_on = 1, busy = 0, ss1 = 1, ss2 = 1, interrupt = 0, interrupt_pending = 0
+$finish called at time : 82575 ns
